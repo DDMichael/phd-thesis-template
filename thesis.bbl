@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{GaborHolography}
+D.~Gabor.
+\newblock A new microscopic principle.
+\newblock {\em Nature}, 161(161):777--778, May 1948.
+
+\bibitem{KimSingleChipFPGA}
+H.~Kim, Y.~Kim, H.~Ji, H.~Park, J.~An, H.~Song, Y.~T. Kim, H.~Lee, and K.~Kim.
+\newblock A single-chip fpga holographic video processor.
+\newblock {\em IEEE Transactions on Industrial Electronics}, 66(3):2066--2073,
+  March 2019.
+
+\bibitem{4B11}
+T.~Wilkinson.
+\newblock Lecture notes 4{B}11 phtonics systems, October 2015.
+
+\bibitem{Ito_Review}
+T.~Shimobaba, T.~Kakue, and T.~Ito.
+\newblock Review of fast algorithms and hardware implementations on computer
+  holography.
+\newblock {\em IEEE TRANSACTIONS ON INDUSTRIAL INFORMATICS}, 12(4):1611--1622,
+  2016.
+
+\bibitem{RecurrenceAlgorithm}
+T.~Shimobaba and T.~Ito.
+\newblock An efficient computational method suitable for hardware of
+  computer-generated hologram with phase computation by addition.
+\newblock {\em Computer physics communications}, 138:44--52, July 2001.
+
+\end{thebibliography}

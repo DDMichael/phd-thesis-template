@@ -1,0 +1,75 @@
+%!TEX root = ../thesis.tex
+%*******************************************************************************
+%****************************** Third Chapter *********************************
+%*******************************************************************************
+\chapter{Tables and more equations}
+This chapter ....... table
+\section{Simple table}
+\begin{table}[H]
+\caption[General comparison among CPU, GPU and FPGA]{General comparison among CPU, GPU and FPGA \cite{Ito_Review}}
+\centering
+\ra{1.3}
+\label{table:ProsConsHardware}
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{l c c c c}
+\toprule
+& Number of cores& Development time& Clock frequency & Power consumption\\
+\hline
+CPU & Low & Short & High & Average \\
+FPGA & High & Long & Low & Low \\
+GPU & High & Average & High & High\\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\section{Equation with bracket}
+\begin{equation}
+	\theta_H(x_{\alpha j}, y_{\alpha j}, z_j) = kR_{\alpha j} = 2\pi\left( \underbrace{\frac{z_j}{\lambda}}_{\theta_Z}+\underbrace{\frac{p^2}{2\lambda z_j}(x_{\alpha j}^2 + y_{\alpha j}^2)}_{\theta_{XY}}\right)
+	\label{eq:phaseOfTwoComponents}
+\end{equation}
+\section{Aligning equations}
+\begin{align}
+	\theta_{XY}(x_{\alpha j}+d, y_{\alpha j}, z_j) & = \text{mod}[{\frac{p^2}{2\lambda z_j}(x_{(\alpha j}+d)^2 + y_{\alpha j}^2)}] \\
+	& = \text{mod}[\theta_{XY}(x_{\alpha j}, y_{\alpha j}, z_j)+\Gamma_d]
+\end{align}
+
+\begin{table}[htbp!]
+\caption[Comparison of computation time]{Comparison of computation time \cite{RecurrenceAlgorithm}}
+\centering
+\ra{1.3}
+\label{table:PSS_ComputationTime}
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{l c c c}
+\toprule
+& Direct computes & Fresnel approximation& Recurrence algorithm\\
+\hline
+Time(s) & 603 & 118 & 25 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+\section{Another table}
+\begin{table}[H]
+\caption{Result comparison between Verilog and MATLAB fft function}
+\centering
+\label{table:Radix_2FFT}
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{l c c c c}
+\toprule
+\multirow{2}{*}{Input data ($s$)} & \multicolumn{3}{c}{Verilog} & \multicolumn{1}{c}{MATLAB} \\ 
+\cmidrule{2-5}
+   & Binary real part & Binary imaginary part & Decimal & Decimal \\ 
+\midrule
+1 & 9'b011111111 & 9'b000000000 & 255 & 255\\
+2 & 9'b000110000 & 9'b010100101 & 48+j165  & 48.6396 + j166.0660  \\
+4 & 9'b111001101 & 9'b001100110 & -51+j102  & -51 + j102  \\
+8 & 9'b110110010 & 9'b000101101 & -78+j45  & -78.6396 + j46.0660  \\
+16 & 9'110101011 & 9'b000000000 & -85  & -85 \\
+32 & 9'b110110010 & 9'b111010011 & -78-j45 & -78.6396 - j46.0660  \\
+64 & 9'b111001101 & 9'b110011010 & -51-j102  & -51 - j102  \\
+128 & 9'b000110000 & 9'b101011011 & 48-j165  & 48.6396 -j166.066  \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}

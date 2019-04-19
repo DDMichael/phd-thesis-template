@@ -1,0 +1,36 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.18)  8 NOV 2018 19:27
+entering extended mode
+**"C:/Users/AdminAccount/OneDrive - University Of Cambridge/Documents/phd_first
+yearreport/FYP_Combine/Chapter3/Chapter3.tex"
+
+("C:/Users/AdminAccount/OneDrive - University Of Cambridge/Documents/phd_firsty
+earreport/FYP_Combine/Chapter3/Chapter3.tex"
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+(D:\Softwares\MiKTex\tex\latex\subfiles\subfiles.cls
+Document Class: subfiles 2018/07/31 Federico Garcia, Gernot Salzer
+Preamble taken from file `Daoming_Dong_FirstYearReport.tex'
+
+! LaTeX Error: File `Daoming_Dong_FirstYearReport.tex' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.35 \input{\preamble@file}
+                           
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 20 strings out of 493305
+ 832 string characters out of 3142337
+ 53825 words of memory out of 3000000
+ 3664 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 17i,0n,17p,210b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

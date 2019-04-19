@@ -1,0 +1,54 @@
+\documentclass[a4paper,12pt,numbered,print,index]{Classes/PhDThesisPSnPDF}
+
+\input{Preamble/preamble}
+\input{Thesis-info}
+\begin{document}
+
+	\frontmatter
+	\maketitle
+	\pagenumbering{roman}
+
+	% \include{Dedication/Dedication}
+	\include{Declaration/Declaration}
+	\include{Acknowledgement/Acknowledgement}
+	\include{Abstract/Abstract}
+
+	\tableofcontents
+
+	\listoffigures
+
+	\listoftables
+
+	% % \printnomenclature[space] space can be set as 2em between symbol and description
+	% %\printnomenclature[3em]
+
+	% \printnomenclature
+	\mainmatter
+	\pagenumbering{arabic}
+	\setcounter{page}{1}
+	\include{Chapter1/Chapter1}
+	\include{Chapter2/Chapter2}
+	\include{Chapter3/Chapter3}
+	% \include{Chapter4/Chapter4}
+	% \include{Chapter5/Chapter5}
+	% \include{Chapter6/Chapter6}
+
+	% ********************************** Bibliography ******************************
+	% \begin{spacing}{0.9}
+
+	% To use the conventional natbib style referencing
+	% Bibliography style previews: http://nodonn.tipido.net/bibstyle.php
+	% Reference styles: http://sites.stat.psu.edu/~surajit/present/bib.htm
+
+	\bibliographystyle{unsrt}
+	%\bibliographystyle{unsrt} % Use for unsorted references  
+	%\bibliographystyle{plainnat} % use this to have URLs listed in Referencess
+	\cleardoublepage
+	\bibliography{References/references} % Path to your References.bib file
+
+	\begin{appendices}
+		\include{Appendix1/Appendix1}
+		\include{Appendix2/Appendix2}
+	\end{appendices}
+
+\end{document}
